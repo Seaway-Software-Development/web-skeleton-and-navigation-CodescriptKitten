@@ -21,14 +21,18 @@ body {
 
 h1 {
     padding: 2em;
+    font-size: 1.8em;
 }
 
 h2 {
     padding: 2em;
+    font-size: 1.4em;
 }
 
 blockquote {
     padding: 2em;
+    font-size: 3em;
+    text-align: center;
 }
 
 table {
@@ -41,16 +45,16 @@ header {
 
 nav {
     text-align: center;
-    display: inline-block;
 }
 
 ul {
     list-style-type: none;
-    display: inline-block;
 }
 
 li {
+    font-size: 1.6em;
     padding: 0 2em;
+    display: inline-block;
 }
 
 a {
