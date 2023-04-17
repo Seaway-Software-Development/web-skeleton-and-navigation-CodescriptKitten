@@ -1,0 +1,63 @@
+/* CSS Document
+
+Colors
+
+#0D3B66 - Blue
+#FAF0CA - Tan
+#F4D35E - Gold
+
+*/
+
+*, *:after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: #FAF0CA;
+    color: #0D3B66;
+}
+
+h1 {
+    padding: 2em;
+}
+
+h2 {
+    padding: 2em;
+}
+
+blockquote {
+    padding: 2em;
+}
+
+table {
+    margin: 2em;
+}
+
+header {
+    margin: 2em 0;
+}
+
+nav {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    display: inline-block;
+}
+
+li {
+    padding: 0 2em;
+}
+
+a {
+    color: #0D3B66;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #F4D35E;
+    text-decoration: none;
+}
