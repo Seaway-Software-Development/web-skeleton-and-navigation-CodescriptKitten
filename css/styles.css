@@ -19,6 +19,10 @@ body {
     color: #0D3B66;
 }
 
+main {
+    margin: 2em;
+}
+
 h1 {
     padding: 2em;
     font-size: 1.8em;
@@ -65,4 +69,8 @@ a {
 a:hover {
     color: #F4D35E;
     text-decoration: none;
+}
+
+footer {
+
 }
