@@ -119,17 +119,17 @@ a:hover {
     text-decoration: none;
 }
 
-.btn {
+input {
     border-radius: 3px;
     color: #F4D35E;
     background-color: #0D0E66;
 }
 
-.darkerBlue .btn {
+.darkerBlue input {
     background-color: #000000;
 }
 
-.btn:hover {
+input:hover {
     background-color: #FFFFFF;
     color: #0D3B66;
 }
