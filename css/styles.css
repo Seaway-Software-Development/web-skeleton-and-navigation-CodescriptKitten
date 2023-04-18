@@ -2,9 +2,20 @@
 
 Colors
 
-#0D3B66 - Blue
-#FAF0CA - Tan
-#F4D35E - Gold
+#0D0E66 - Darker Blue
+
+Main #0D3B66 - Blue
+
+#135593 - Lighter Blue
+
+Main #FAF0CA - Tan
+
+#F6E39B - Cream Tan
+
+Main #F4D35E - Gold
+
+#F1C62E - Yellow
+
 #000000 - Black
 #FFFFFF - White
 
@@ -27,7 +38,7 @@ header {
 }
 
 header nav {
-    background-color: #0D3B66;
+    background-color: #0D0E66;
 }
 
 main {
@@ -38,6 +49,21 @@ main {
 .container {
     width: 80%;
     align-content: center;
+}
+
+.lightBlue {
+    background-color: #135593;
+    color:#FFFFFF;
+}
+
+.blueBack {
+    background-color: #0D3B66;
+    color: #FAF0CA;
+}
+
+.darkerBlue {
+    background-color: #0D0E66;
+    color:#F1C62E;
 }
 
 article section {
@@ -88,7 +114,7 @@ li {
 }
 
 a {
-    color: #F4D35E;
+    color: #F1C62E;
     text-decoration: none;
 }
 
@@ -97,7 +123,16 @@ a:hover {
     text-decoration: none;
 }
 
+button {
+    border-radius: 3px;
+    color: #F4D35E;
+    background-color: #0D0E66;
+}
+
+
+
 footer {
     margin: 2em 0;
     min-height: 600px;
+    align-content: center;
 }
