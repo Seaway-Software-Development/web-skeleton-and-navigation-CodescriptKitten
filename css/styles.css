@@ -48,7 +48,7 @@ main {
 
 .container {
     width: 80%;
-    align-content: center;
+    margin: 0 auto;
 }
 
 .lightBlue {
@@ -129,10 +129,15 @@ button {
     background-color: #0D0E66;
 }
 
+.darkerBlue button {
+    background-color: #000000;
+}
 
+footer nav {
+    background-color: #000000;
+}
 
 footer {
-    margin: 2em 0;
+    margin: 2em auto;
     min-height: 600px;
-    align-content: center;
 }
