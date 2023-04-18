@@ -119,13 +119,13 @@ a:hover {
     text-decoration: none;
 }
 
-button {
+.btn {
     border-radius: 3px;
     color: #F4D35E;
     background-color: #0D0E66;
 }
 
-.darkerBlue button {
+.darkerBlue .btn {
     background-color: #000000;
 }
 
@@ -136,4 +136,8 @@ footer nav {
 footer {
     margin: 2em auto;
     min-height: 600px;
+}
+
+footer p {
+    margin: 1em auto;
 }
