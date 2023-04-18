@@ -5,6 +5,8 @@ Colors
 #0D3B66 - Blue
 #FAF0CA - Tan
 #F4D35E - Gold
+#000000 - Black
+#FFFFFF - White
 
 */
 
@@ -19,8 +21,32 @@ body {
     color: #0D3B66;
 }
 
+header {
+    min-height: 800px;
+    background-color: #F4D35E;
+}
+
+header nav {
+    background-color: #0D3B66;
+}
+
 main {
     margin: 2em;
+    background-color: #FAF0CA;
+}
+
+.container {
+    width: 80%;
+    align-content: center;
+}
+
+article section {
+    padding: 150px 20%;
+}
+
+article section p {
+    font-size: 2.5em;
+    text-justify: inter-word;
 }
 
 h1 {
@@ -62,15 +88,16 @@ li {
 }
 
 a {
-    color: #0D3B66;
+    color: #F4D35E;
     text-decoration: none;
 }
 
 a:hover {
-    color: #F4D35E;
+    color: #FAF0CA;
     text-decoration: none;
 }
 
 footer {
     margin: 2em 0;
+    min-height: 600px;
 }
