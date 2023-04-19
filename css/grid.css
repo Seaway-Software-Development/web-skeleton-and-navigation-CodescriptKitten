@@ -14,6 +14,10 @@
         height: auto;
     }
 
+    img {
+        width: 28%;
+    }
+
     #sect1 {
         grid-area: sect1;
         min-height: fit-content;
