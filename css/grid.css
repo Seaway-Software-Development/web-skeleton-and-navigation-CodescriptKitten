@@ -1,0 +1,32 @@
+@supports (grid-area: auto) {
+
+    /* Basic CSS Grid Query */
+
+    #allSects {
+        display: grid;
+        width: 100%;
+        grid-template-columns: 30% 30% 30%;
+        grid-template-areas: 
+            "sect1" "sect2" "sect3";
+        justify-content: center;
+        padding: 2em 0;
+        grid-gap: 1% 1%;
+        height: auto;
+    }
+
+    #sect1 {
+        grid-area: sect1;
+        min-height: fit-content;
+    }
+
+    #sect2 {
+        grid-area: sect2;
+        min-height: fit-content;
+    }
+
+    #sect3 {
+        grid-area: sect3;
+        min-height: fit-content;
+    }
+
+}

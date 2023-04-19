@@ -11,6 +11,14 @@ Main #F4D35E - Gold
 #000000 - Black
 #FFFFFF - White
 
+Images used
+
+"Cyber Shield 2015" by Operate, Defend, Attack, Influence! is marked with Public Domain Mark 1.0. To view the terms, visit https://creativecommons.org/publicdomain/mark/1.0/?ref=openverse.
+
+"Bob and Adriano enjoy Professional JavaScript Web Development" by sh1mmer is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/?ref=openverse.
+
+"Programmer Mirage in Computer Screen with Source Code (Lenovo)" by qubodup is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/?ref=openverse.
+
 */
 
 *, *:after {
@@ -112,12 +120,20 @@ a:hover {
 }
 
 input {
+    font-size: 2.5em;
+    border-radius: 3px;
+    color: #000000;
+    background-color: #FAF0CA;
+}
+
+input .btn {
+    font-size: 3em;
     border-radius: 3px;
     color: #F4D35E;
     background-color: #0D3B66;
 }
 
-.darkerBlue input {
+.darkerBlue input .btn{
     background-color: #000000;
 }
 
