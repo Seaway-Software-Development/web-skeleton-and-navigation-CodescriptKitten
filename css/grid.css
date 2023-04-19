@@ -8,8 +8,8 @@
         grid-template-columns: 30% 30% 30%;
         grid-template-areas: 
             "sect1" "sect2" "sect3"
-            "blank" "blank" "blank"
-            "blank" "blank" "blank";
+            "blank4" "blank5" "blank6"
+            "blank7" "blank8" "blank9";
         justify-content: center;
         padding: 2em 0;
         grid-gap: 1% 1%;
@@ -17,7 +17,7 @@
     }
 
     img {
-        width: 28%;
+        width: 100%;
     }
 
     #sect1 {

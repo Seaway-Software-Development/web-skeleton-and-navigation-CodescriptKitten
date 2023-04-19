@@ -127,6 +127,10 @@ input {
     border: 3px solid #000000;
 }
 
+form p {
+    font-size: 2.5em;
+}
+
 .btn {
     font-size: 3em;
     border-radius: 3px;
