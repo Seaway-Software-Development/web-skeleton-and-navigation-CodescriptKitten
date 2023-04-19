@@ -7,9 +7,7 @@
         width: 100%;
         grid-template-columns: 30% 30% 30%;
         grid-template-areas: 
-            "sect1" "sect2" "sect3"
-            "blank4" "blank5" "blank6"
-            "blank7" "blank8" "blank9";
+            "sect1 sect2 sect3";
         justify-content: center;
         padding: 2em 0;
         grid-gap: 1% 1%;
