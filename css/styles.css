@@ -124,16 +124,17 @@ input {
     border-radius: 3px;
     color: #000000;
     background-color: #FAF0CA;
+    border: 3px solid #000000;
 }
 
-input .btn {
+.btn {
     font-size: 3em;
     border-radius: 3px;
     color: #F4D35E;
     background-color: #0D3B66;
 }
 
-.darkerBlue input .btn{
+.darkerBlue .btn{
     background-color: #000000;
 }
 
