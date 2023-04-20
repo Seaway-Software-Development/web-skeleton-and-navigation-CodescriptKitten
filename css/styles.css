@@ -151,6 +151,18 @@ input {
     border: 3px solid #000000;
 }
 
+#companySections {
+    font-size: 1.2em;
+}
+
+.fltLeft {
+    float: left;
+}
+
+.fltRight {
+    float: right;
+}
+
 form td {
     font-size: 2em;
 }
