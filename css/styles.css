@@ -155,8 +155,18 @@ input {
     font-size: .6em;
 }
 
+#companySections h1 {
+    font-size: 1em;
+}
+
+#companySections h2 {
+    font-size: .8em;
+}
+
 #companySections img {
-    width: 20%;
+    width: 30%;
+    min-height: 20%;
+    margin: 0 1em;
 }
 
 .fltLeft {
