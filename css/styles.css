@@ -155,13 +155,17 @@ input {
     font-size: .6em;
 }
 
-#companySections h1 {
-    font-size: 1em;
+
+#companySections h1{
+    font-size: 3em;
+    padding: 0
 }
 
-#companySections h2 {
-    font-size: .8em;
+#companySections h2{
+    font-size: 2em;
+    padding: 1em;
 }
+
 
 #companySections img {
     width: 30%;
