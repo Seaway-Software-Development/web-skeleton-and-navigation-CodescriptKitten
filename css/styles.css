@@ -152,7 +152,11 @@ input {
 }
 
 #companySections {
-    font-size: 1.2em;
+    font-size: .6em;
+}
+
+#companySections img {
+    width: 20%;
 }
 
 .fltLeft {
