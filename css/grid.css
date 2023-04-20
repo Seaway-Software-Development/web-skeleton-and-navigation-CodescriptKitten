@@ -47,27 +47,33 @@
     }
 
     #box1 {
-
+        grid-area: box1;
+        min-height: fit-content;
     }
 
     #box2 {
-        
+        grid-area: box2;
+        min-height: fit-content;
     }
 
     #box3 {
-
+        grid-area: box3;
+        min-height: fit-content;
     }
 
     #box4 {
-
+        grid-area: box4;
+        min-height: fit-content;
     }
 
     #box5 {
-
+        grid-area: box5;
+        min-height: fit-content;
     }
 
     #box6 {
-
+        grid-area: box6;
+        min-height: fit-content; 
     }
 
 }
