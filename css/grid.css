@@ -33,4 +33,41 @@
         min-height: fit-content;
     }
 
+    #allGridBoxes {
+        display: grid;
+        width: 100%;
+        grid-template-columns: 30% 30% 30%;
+        grid-template-areas: 
+            "box1 box2 box3"
+            "box4 box5 box6";
+        justify-content: center;
+        padding: 2em 0;
+        grid-gap: 1% 1%;
+        height: auto;
+    }
+
+    #box1 {
+
+    }
+
+    #box2 {
+        
+    }
+
+    #box3 {
+
+    }
+
+    #box4 {
+
+    }
+
+    #box5 {
+
+    }
+
+    #box6 {
+
+    }
+
 }
