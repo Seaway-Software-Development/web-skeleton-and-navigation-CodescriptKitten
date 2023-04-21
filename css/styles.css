@@ -145,7 +145,7 @@ a:hover {
     text-decoration: none;
 }
 
-input {
+.formText {
     font-size: 2em;
     border-radius: 3px;
     color: #000000;
@@ -192,7 +192,7 @@ form td {
     width: 45%;
 }
 
-.btn input {
+.btn {
     font-size: 2.5em;
     border-radius: 3px;
     color: #F4D35E;
