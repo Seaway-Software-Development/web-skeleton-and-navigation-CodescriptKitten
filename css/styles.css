@@ -70,7 +70,7 @@ header {
 }
 
 header nav {
-    background-color: #0D0E66;
+    background-color: #0D3B66;
     font-size: 1.4em;
     padding: 0.2em 0;
 }
@@ -214,10 +214,12 @@ form td {
     border-radius: 3px;
     color: #F4D35E;
     background-color: #0D3B66;
+    border: #000000;
 }
 
 .darkerBlue .btn{
     background-color: #000000;
+    border:#0D3B66;
 }
 
 input:hover {
