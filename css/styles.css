@@ -63,7 +63,8 @@ header {
 
 header nav {
     background-color: #0D0E66;
-    font-size: 2em;
+    font-size: 1.4em;
+    padding: 0.2em 0;
 }
 
 main {
@@ -209,6 +210,8 @@ input:hover {
 
 footer nav {
     background-color: #000000;
+    font-size: 1.4em;
+    padding: 0.2em 0;
 }
 
 footer {
