@@ -11,6 +11,12 @@ Main #F4D35E - Gold
 #000000 - Black
 #FFFFFF - White
 
+Font Families
+
+font-family: 'Abril Fatface', cursive;
+font-family: 'Poltawski Nowy', serif;
+font-family: 'Source Sans Pro', sans-serif;
+
 Images used
 
 Services Page:
@@ -44,6 +50,8 @@ Company Page:
 "Aber Whitcomb, CTO of MySpace" by Robert Scoble is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/?ref=openverse.
 
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poltawski+Nowy:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&display=swap');
 
 *, *:after {
     margin: 0;
@@ -115,6 +123,7 @@ blockquote {
     padding: 2em;
     font-size: 5em;
     text-align: center;
+    font-family: 'Poltawski Nowy', serif;
 }
 
 table {
@@ -133,6 +142,14 @@ li {
     font-size: 1.6em;
     padding: 0 2em;
     display: inline-block;
+}
+
+td, p {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1, h2, li {
+    font-family: 'Abril Fatface', cursive;
 }
 
 a {
