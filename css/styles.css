@@ -192,7 +192,7 @@ form td {
     width: 45%;
 }
 
-.btn {
+.btn input {
     font-size: 2.5em;
     border-radius: 3px;
     color: #F4D35E;
